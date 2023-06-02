@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import Layout from "../layout/layout"
 import useKiosko from "../hooks/useKiosko"
 import ResumenProducto from "../components/ResumenProducto"

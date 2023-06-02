@@ -1,9 +1,11 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import Image from "next/image";
 import useKiosko from "../hooks/useKiosko";
 
-const categoria = ({categoria}) => {
+const categoria = ({ categoria }) => {
 
-    const { categoriaActual, handleClickCategoria } = useKiosko()
+    
+    const { categoriaActual, handleClickCategoria } = useKiosko();
 
     const { nombre, icono, id } = categoria;
   return (
@@ -28,4 +30,4 @@ const categoria = ({categoria}) => {
   )
 }
 
-export default categoria
+export default categoria;

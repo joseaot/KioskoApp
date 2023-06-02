@@ -3,7 +3,7 @@ import KioskoContext from "../context/KioskoProvider";
 
 
 const useKiosko = () =>{
-    return useContext(KioskoContext)
+    return useContext(KioskoContext);
 }
 
 
