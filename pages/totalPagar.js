@@ -5,13 +5,16 @@ import { formatearDinero } from "../helpers";
 
 export default function totalPagar() {
 
+   
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const { pedido, nombre, setNombre, colocarOrden, total } = useKiosko();
 
+   
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const comprobarPedido = useCallback(() =>{
         return pedido.length === 0 || nombre === '' || nombre.length<3;
     },[pedido, nombre]);
+    
     
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(()=>{

@@ -1,10 +1,11 @@
-/* eslint-disable react-hooks/rules-of-hooks */
+
 import Layout from "../layout/layout"
 import useKiosko from "../hooks/useKiosko"
 import ResumenProducto from "../components/ResumenProducto"
 
 export default function resumen() {
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const { pedido } = useKiosko()
     return(
         <Layout pagina='Resumen'>

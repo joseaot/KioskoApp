@@ -1,10 +1,10 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import Image from "next/image";
 import useKiosko from "../hooks/useKiosko";
 
 const categoria = ({ categoria }) => {
 
     
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const { categoriaActual, handleClickCategoria } = useKiosko();
 
     const { nombre, icono, id } = categoria;
